@@ -6,8 +6,8 @@ import * as eth from './utils/ethereum'
 // Constants
 const TWITTER_HANDLE = 'littlemooon'
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
-const OPENSEA_LINK = `https://testnets.opensea.io/assets/${process.env.REACT_APP_CONTRACT_ADDRESS}/`
-const RARIBLE_LINK = `https://rinkeby.rarible.com/token/${process.env.REACT_APP_CONTRACT_ADDRESS}/`
+// const OPENSEA_LINK = `https://testnets.opensea.io/assets/${process.env.REACT_APP_CONTRACT_ADDRESS}/`
+// const RARIBLE_LINK = `https://rinkeby.rarible.com/token/${process.env.REACT_APP_CONTRACT_ADDRESS}/`
 
 export default function App() {
   const [loading, setLoading] = useState<string | undefined>()
